@@ -19,11 +19,11 @@ let usuarioSchema = new Schema({
     email: {
         type: String,
         unique: true,
-        required: [true, 'El correo es inecesario']
+        required: [true, 'El correo es necesario']
     },
     password: {
         type: String,
-        required: [true, 'contraseña obligatoria']
+        required: [true, 'La contraseña es obligatoria']
     },
     img: {
         type: String,
