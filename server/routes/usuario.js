@@ -10,7 +10,7 @@ const app = express();
 
 app.get('/usuario', function(req, res) {
 
-
+  //creando datos
 
     let desde = req.query.desde || 0;
     desde = Number(desde);
